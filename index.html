@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- reference your copy Font Awesome here (from our CDN or by hosting yourself) -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/fontawesome.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/solid.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/brands.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- references my css -->
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- references bootstrap css -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>.:Make:.</title>
+</head>
+<body>
+
+    <main class="container main">
+        <h3>Minha lojinha na internet</h3>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Make</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Quem Somos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contato</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Fique por dentro</a>
+                </li>
+            </div>
+        </nav>
+
+        <div class="row" id="imagemLogo">
+            <div class="col-md-12">
+                <img id="logoLoja" src="./img/bannerFull_optimized.png" alt="">
+            </div>
+        </div>
+
+
+        <div class="row" id="titulodestaque">
+            <div class="col-md-12">
+                <h3>Nossos Destaques</h3>
+            </div>
+        </div>
+
+        <div class="row products">
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="./img/pinceis.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Nome do produto</h5>
+                        <p class="card-text">Descrição breve sobre o produto</p>
+                        <h6 class="card-title">R$50,00</h6>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#addToCart">Comprar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="./img/pocompacto.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Nome do produto</h5>
+                        <p class="card-text">Descrição breve sobre o produto</p>
+                        <h6 class="card-title">R$50,00</h6>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#addToCart">Comprar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="./img/sombras.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Nome do produto</h5>
+                        <p class="card-text">Descrição breve sobre o produto</p>
+                        <h6 class="card-title">R$50,00</h6>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#addToCart">Comprar</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product modal -->
+            <!-- Modal -->
+            <div class="modal fade" id="addToCart" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <h5>Kit Maquiagem</h5>
+                        <p>R$ 500,00 <span>em até 12x sem juros</span></p>
+                        <p>adicionado com sucesso!</p>
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="row footer" id="footer">
+
+            <div class="wrap__social col-md-6">
+                <p><i class="fab fa-whatsapp-square"></i>+55 11 9999-9999</p>
+                <p><i class="fab fa-twitter-square"></i> @minhalojanainternet</p>
+                <p><i class="fab fa-instagram"></i>@minhalojanainternet</p>
+            </div>
+            <!-- <div class="wrap__form" class="col-md-6">
+                <h3>Receba novidades</h3>
+                <input type="text" id="txtEmail" placeholder="Digite seu email">
+                <button>Enviar</button>
+            </div> -->
+            <form action="" class="col-md-6">
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Digite seu email</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <small id="emailHelp" class="form-text text-muted">privacidade garantida</small>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </div>
+            </form>
+
+        </footer>
+
+    </main>
+
+
+
+
+    <script src="./dvghwdc.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>    
+</body>
+</html>

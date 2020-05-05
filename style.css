@@ -1,0 +1,45 @@
+body {
+    background: #000;
+}
+
+.container {
+    background-color: #fff;
+}
+
+h3 {
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+#imagemLogo {
+    margin-bottom: 30px;
+}
+
+#logoLoja {
+    width: 100%;
+}
+
+.products {
+    margin: 30px 0;
+}
+
+.card {
+    width: 100%;
+}
+
+.footer {
+    background: rgba(43, 42, 42, 0.91);
+    color: #fff;
+    margin: 20px 0 0;
+    padding: 20px 0;
+}
+
+.wrap__social {
+    padding: 15px;
+}
+
+
+.form-group {
+    padding: 15px;
+}
