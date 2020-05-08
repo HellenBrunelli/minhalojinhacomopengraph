@@ -6,7 +6,7 @@ Minha primeira palestra online realizada no dia 05/05/2020.
 
 ***" Resolvi falar sobre Open Graph, pois quando precisei implemetar, fiz inúmeras buscas, no meu caso era para Vtex, mas no geral, mesmo pessoas que já programavam a um bom tempo, não sabiam do que se tratava. 
 Várias outras pessoas já me disseram que não sabiam o que era e muitas ja fizeram mas nem sabia que se tratava de um protocolo.
-Open Graph serve para destacar seu conteúdo nas redes sociais, seja ele um site, eccommerce ou até mesmo seu portfólio."***
+Open Graph serve para destacar seu conteúdo nas redes sociais, seja ele um site, ecommerce ou até mesmo seu portfólio."***
 
 
 <br>
