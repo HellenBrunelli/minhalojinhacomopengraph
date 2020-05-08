@@ -51,7 +51,7 @@ Para que sua imagem do open graph apareça no watsapp, ela não pode ter mais de
 
 ## **Dica Para quem usa Vtex**
 
-Na Vtex a impplementação pode ser manual nas páginas, porém para a página de produto existe um controler específico que você pode consultar [aqui](https://help.vtex.com/tutorial/list-of-controls-for-templates--tutorials_563)
+Na Vtex a implementação pode ser manual nas páginas, porém para a página de produto existe um controler específico que você pode consultar [aqui](https://help.vtex.com/tutorial/list-of-controls-for-templates--tutorials_563)
 
 É importante ler para saber onde implementar manualmente e onde usar controlers.
 
