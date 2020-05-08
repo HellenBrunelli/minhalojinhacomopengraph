@@ -1,5 +1,7 @@
 # Open Graph Protocol
 Minha primeira palestra online realizada no dia 05/05/2020.
+![Banner Mettup](./img/bannerMettup.jpg)
+
 
 **24° [Meetup](https://reprograma.com.br/meetup/) online da [Reprograma](https://reprograma.com.br/).**
 
