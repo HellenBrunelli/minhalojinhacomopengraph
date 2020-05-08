@@ -1,4 +1,4 @@
-s# Open Graph Protocol
+# Open Graph Protocol
 Minha primeira palestra online realizada no dia 05/05/2020.
 
 **24° [Meetup](https://reprograma.com.br/meetup/) online da [Reprograma](https://reprograma.com.br/).**
@@ -132,9 +132,9 @@ Compactador de imagens PNG e JPG, eu gostei bastante do resultado.
 
 ## ***Qualquer dúvida saiba onde me encontrar..***
 
-- [Linkedin](https://www.linkedin.com/in/hellenbrunelli/)
+- [Meu Linkedin](https://www.linkedin.com/in/hellenbrunelli/)
 
-- [github](https://github.com/HellenBrunelli)
+- [Meu Github](https://github.com/HellenBrunelli)
 
 
 
